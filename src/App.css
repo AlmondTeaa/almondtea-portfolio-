@@ -90,3 +90,39 @@ p {
   background-color: #64ffda;
   color: #0d1117;
 }
+
+.about {
+  padding: 64px 0;
+  border-top: 1px solid #21262d;
+}
+
+.about h2 {
+  margin: 0 0 24px;
+  font-size: 32px;
+}
+
+.about p {
+  max-width: 650px;
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.about h3 {
+  margin: 32px 0 16px;
+  font-size: 18px;
+}
+
+.about-skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 500px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-skills li {
+  color: #64ffda;
+  font-family: monospace;
+}
