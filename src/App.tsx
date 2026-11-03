@@ -1,12 +1,17 @@
- import './App.css'
- 
- const App = () => {
-  return (
-    <main>
-      <h1> Jos Constantine Almonte</h1>
-      <p>Software Developer</p>
-    </main>
-  )
- }
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import './App.css'
 
- export default App
+const App = () => {
+  return (
+    <>
+      <Navbar />
+
+      <main id="home">
+        <Hero />
+      </main>
+    </>
+  )
+}
+
+export default App
